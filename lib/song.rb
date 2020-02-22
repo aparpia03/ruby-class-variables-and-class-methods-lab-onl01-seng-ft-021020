@@ -36,7 +36,7 @@ def self.genre_count
        new_hash[genre] = 1 
     end  
   end    
-  new_hash 
+  return new_hash 
 end 
   
   
