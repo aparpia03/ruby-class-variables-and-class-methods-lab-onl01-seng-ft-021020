@@ -32,7 +32,8 @@ def self.genre_count
    @@genres.each do |genre|
      if new_hash == new_hash[genre]
        new_hash[genre] +=1
-     else new_hash[genre] = 1 
+     else 
+       new_hash[genre] = 1 
     end  
   end    
   new_hash 
