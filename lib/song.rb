@@ -46,7 +46,7 @@ end
       else 
         new_hash[artist] = 1
     end 
-  end    
-end 
+  end   
   return new_hash 
+end 
 end 
