@@ -36,7 +36,6 @@ def self.genre_count
     end  
   end    
   new_hash 
-  binding.pry 
 end 
   
   
